@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  line-height: 100%;
+}
+.container {
+  margin: 1rem;
+}
+
+.widget {
+  float: left;
+  padding: 1rem;
+  width: 33.33%;
+}
+
+.branding {
+  margin-top: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  color: #444;
+}
+
+#header-text{
+  font-family: Gotham, Arial, Helvetica, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 1rem;
+}
+
+#disclosure {
+  float: right;
+  color: #444;
+  padding-right: 1rem;
+  font-size: 14px;
+  font-family: 'Gotham XNarrow', Arial, Helvetica, Tahoma, sans-serif;
+  vertical-align: text-bottom;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .widget {
+    width: 100%;
+  }
+}
